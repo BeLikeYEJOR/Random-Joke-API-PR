@@ -1,8 +1,7 @@
-require("dotenv").config();
-
 const jokeContainer = document.querySelector("#joke");
 const btn = document.querySelector("#btn");
-const url = process.env.APIKEY;
+const url =
+  "https://randomjoke-6rbxu1j40-belikeyejors-projects.vercel.app/random-joke";
 
 let getJoke = () => {
   fetch(url)
