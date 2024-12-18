@@ -6,6 +6,6 @@ let server = express();
 server.use(cors());
 server.use('/', express.static('public'));
 
-server.listen(8080, () => {
-    console.log("Listning on port 8080");
+server.listen(9000, () => {
+    console.log("Listning on port 9000");
 })
